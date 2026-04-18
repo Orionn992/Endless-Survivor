@@ -1,5 +1,5 @@
 <p align="center">
-      <img картинка>
+      <img src="https://i.postimg.cc/CLLVwQrg/Kbl-K.png" alt="Project Logo" width="726">
 </p>
 
 <p align="center">
