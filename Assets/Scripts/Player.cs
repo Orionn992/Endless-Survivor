@@ -19,7 +19,10 @@ public class Player : MonoBehaviour
     private void Start()
     {
         Text.text = Health.ToString();
+        _targetPos = transform.position;
+       Text.text = Health.ToString();
     }
+    
 
     private void Update()
     {
@@ -39,14 +42,14 @@ public class Player : MonoBehaviour
 
     public void ApplyDamage(int damage)
     {
-        if (!IsAlive) return; // Если уже мертв, не обрабатываем урон
+        if (!IsAlive) return; 
         
         Health -= damage;
         Text.text = Health.ToString();
         
         if (Health <= 0)
         {
-            Die(); // Вызываем метод смерти
+            Die(); 
         }
     }
     
@@ -54,13 +57,13 @@ public class Player : MonoBehaviour
     {
         IsAlive = false;
         
-        // Вызываем событие смерти
+        
         OnPlayerDeath?.Invoke();
         
-        // Можно добавить визуальные эффекты перед уничтожением
+        
         Debug.Log("Player died!");
         
-        // Уничтожаем объект с небольшой задержкой
+        
         Destroy(gameObject, 0.1f);
     }
 }
