@@ -26,6 +26,10 @@ C# 10
 
 Standard Unity packages
 
+## Distribute
+
+- Download Game.CubeRunner [Itch.io](https://orion992.itch.io/endless-survivor)
+
 
 ## Developers
 
