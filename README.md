@@ -28,7 +28,7 @@ Standard Unity packages
 
 ## Distribute
 
-- Download Game.CubeRunner [Itch.io](https://orion992.itch.io/endless-survivor)
+- Download Game.EndlessSurvivor [Itch.io](https://orion992.itch.io/endless-survivor)
 
 
 ## Developers
